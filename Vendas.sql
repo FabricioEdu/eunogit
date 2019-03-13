@@ -65,7 +65,7 @@ VALUES (222342, 20),
 Create table item_pedido(
 num_pedido int not null,
 codigo_produto int not null,
-quantidade float,
+cor float,
 Foreign key (num_pedido) References pedido(num_pedido),
 Foreign key (codigo_produto) References produto(codigo_produto)
 );
